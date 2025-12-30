@@ -160,6 +160,8 @@ build_companion_firmwares() {
 #  build_firmware "Heltec_v2_companion_radio_ble"
 #  build_firmware "Heltec_v3_companion_radio_usb"
 #  build_firmware "Heltec_v3_companion_radio_ble"
+  build_firmware "Heltec_v4_companion_radio_usb"
+  build_firmware "Heltec_v4_companion_radio_ble"
 #  build_firmware "Xiao_S3_WIO_companion_radio_ble"
 #  build_firmware "LilyGo_T3S3_sx1262_companion_radio_usb"
 #  build_firmware "LilyGo_T3S3_sx1262_companion_radio_ble"
@@ -168,8 +170,8 @@ build_companion_firmwares() {
 #  build_firmware "t1000e_companion_radio_ble"
 
   # build all companion firmwares
-  build_all_firmwares_by_suffix "_companion_radio_usb"
-  build_all_firmwares_by_suffix "_companion_radio_ble"
+#  build_all_firmwares_by_suffix "_companion_radio_usb"
+#  build_all_firmwares_by_suffix "_companion_radio_ble"
 
 }
 
@@ -177,10 +179,11 @@ build_room_server_firmwares() {
 
 #  # build specific room server firmwares
 #  build_firmware "Heltec_v3_room_server"
+  build_firmware "Heltec_v4_room_server"
 #  build_firmware "RAK_4631_room_server"
 
   # build all room server firmwares
-  build_all_firmwares_by_suffix "_room_server"
+#  build_all_firmwares_by_suffix "_room_server"
 
 }
 
